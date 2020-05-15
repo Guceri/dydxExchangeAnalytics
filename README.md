@@ -2,6 +2,10 @@
   One the the best advantages of decentralized exchanges is that positions are embedded into smart contracts and are essentially public domain.  This means that as a trader, it can be beneficial to see what positions people have and the overall leverage on a particular exchange.  
   This project will attempt to create a dashboard inwhich various tools and metrics can be looked at to aid in decision making and risk management of positions.  
 
+## Getting Started
+  The best way to use this is to download the repository and store it in a directory of your choice as a single folder with all files within it.  You can open any particular file, but just make sure that the working directory when using the files is pointed at the folder you created so that the files can talk to each other.
+
+
 ## TODO List
 - [ ] create similar tools for new perpetual BTC contract
 - [ ] create a dashboard where all information can be viewed on one page (shiny app)
