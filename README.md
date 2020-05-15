@@ -3,8 +3,24 @@
   This project will attempt to create a dashboard inwhich various tools and metrics can be looked at to aid in decision making and risk management of positions.  
 
 ## Getting Started
-  The best way to use this is to download the repository and store it in a directory of your choice as a single folder with all files within it.  You can open any particular file, but just make sure that the working directory when using the files is pointed at the folder you created so that the files can talk to each other.
 
+Programs to download:
+- You can download the latest R [here](https://cran.r-project.org/bin/windows/base/)
+- You can download RStudio [here](https://rstudio.com/products/rstudio/download/)
+- Signup for Pusbullet [here](https://www.pushbullet.com/) and get the phone app and/or browser extension to be notified of trades
+
+Installation instructions:
+1. Clone repository and install unzipped folder within Documents (or where you like)
+2. Open the _input.R file and update the API keys for Coinbase Pro and also PushBullet
+3. Install rgdax package using the following code in R console of Rstudio 
+```
+install.packages('devtools')
+library(devtools)
+install_github("Guceri/rgdax", ref = "dev")
+```
+4. Launch Rstudio and set working directory to the folder (the various files are interlinked with each other)
+
+If there are any issues, please let me know.  The instructions are not exhaustive and not meant for complete beginners. 
 
 ## TODO List
 - [ ] create similar tools for new perpetual BTC contract
