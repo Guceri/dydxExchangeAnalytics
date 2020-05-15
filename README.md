@@ -1,1 +1,3 @@
-#DYDX Exchange Analysis
+# DYDX Exchange Analysis
+
+## TODO List
