@@ -8,6 +8,9 @@ Programs to download:
 - You can download the latest R [here](https://cran.r-project.org/bin/windows/base/)
 - You can download RStudio [here](https://rstudio.com/products/rstudio/download/)
 - Signup for Pusbullet [here](https://www.pushbullet.com/) and get the phone app and/or browser extension to be notified of trades
+- dydx api link is [here] (https://docs.dydx.exchange/#/)
+- dydx liquidator for ETH is [here](https://github.com/dydxprotocol/liquidator)
+- It is advisable to set up your own node for your liquidator. This is a reliable one [here](https://www.quiknode.io/)
 
 Installation instructions:
 1. Clone repository and install unzipped folder within Documents (or where you like)
@@ -25,7 +28,7 @@ If there are any issues, please let me know.  The instructions are not exhaustiv
 ## TODO List
 - [ ] create similar tools for new perpetual BTC contract
 - [ ] create a dashboard where all information can be viewed on one page (shiny app)
-- [ ] provide links to api and dydx liquidator and exchange
+- [ ] quality control check on liquidator values and expirations
 
 ## [Account Liquidation Levels](dydx_liq.R)
 
