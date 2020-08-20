@@ -7,7 +7,7 @@
 Programs to download:
 - You can download the latest R [here](https://cran.r-project.org/bin/windows/base/)
 - You can download RStudio [here](https://rstudio.com/products/rstudio/download/)
-- Signup for Pusbullet [here](https://www.pushbullet.com/) and get the phone app and/or browser extension to be notified of trades
+- Signup for Pushbullet [here](https://www.pushbullet.com/) and get the phone app and/or browser extension to be notified of trades
 - dydx api link is [here] (https://docs.dydx.exchange/#/)
 - dydx liquidator for ETH is [here](https://github.com/dydxprotocol/liquidator)
 - It is advisable to set up your own node for your liquidator. This is a reliable one [here](https://www.quiknode.io/)
